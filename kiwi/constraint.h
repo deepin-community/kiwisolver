@@ -6,6 +6,7 @@
 | The full license is in the file LICENSE, distributed with this software.
 |----------------------------------------------------------------------------*/
 #pragma once
+#include <cstdlib>
 #include <map>
 #include <vector>
 #include "expression.h"
@@ -13,6 +14,7 @@
 #include "strength.h"
 #include "term.h"
 #include "variable.h"
+#include "util.h"
 
 namespace kiwi
 {
@@ -55,6 +57,18 @@ public:
     double strength() const
     {
         return m_data->m_strength;
+    }
+
+    bool violated() const
+    {
+        switch (m_data->m_op)
+        {
+            case OP_EQ: return !impl::nearZero(m_data->m_expression.value());
+            case OP_GE: return m_data->m_expression.value() < 0.0;
+            case OP_LE: return m_data->m_expression.value() > 0.0;
+        }
+
+        std::abort();
     }
 
     bool operator!() const

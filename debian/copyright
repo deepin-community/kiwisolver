@@ -4,7 +4,7 @@ Upstream-Contact: The Nucleic Development Team <sccolbert@gmail.com>
 Source: https://github.com/nucleic/kiwi
 
 Files: *
-Copyright: Copyright (c) 2013-2019, Nucleic Development Team
+Copyright: Copyright (c) 2013-2022, Nucleic Development Team
 License: BSD-3-Clause
 
 License: BSD-3-Clause
@@ -34,7 +34,7 @@ License: BSD-3-Clause
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Files: debian/*
-Copyright: 2018-2020 © Sandro Tosi <morph@debian.org>
+Copyright: 2018-2022 © Sandro Tosi <morph@debian.org>
 License: BSD-3-Clause
 
 Files: kiwi/AssocVector.h
