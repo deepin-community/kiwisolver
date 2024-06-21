@@ -1,3 +1,27 @@
+kiwisolver (1.4.5-1) unstable; urgency=medium
+
+  * New upstream version
+  * Standards-Version: 4.7.0 (routine-update)
+  * Testsuite: autopkgtest-pkg-python (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+  * watch file standard 4 (routine-update)
+
+ -- Emmanuel Arias <eamanu@debian.org>  Sun, 21 Apr 2024 20:48:13 -0300
+
+kiwisolver (1.4.4-3) unstable; urgency=medium
+
+  * Adopt package. Add myself as Uploaders. Closes: #1065244.
+  * d/control: Add python3-setuptool-scm as Build Dependency. Closes:
+    #1063464.
+
+ -- Emmanuel Arias <eamanu@debian.org>  Thu, 28 Mar 2024 12:33:04 -0300
+
+kiwisolver (1.4.4-2) unstable; urgency=medium
+
+  * orphan
+
+ -- Sandro Tosi <morph@debian.org>  Sat, 02 Mar 2024 03:00:57 -0500
+
 kiwisolver (1.4.4-1) unstable; urgency=medium
 
   * New upstream release

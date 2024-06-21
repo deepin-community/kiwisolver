@@ -58,6 +58,7 @@ kiwi/variable.h
 kiwi/version.h
 py/kiwisolver/__init__.py
 py/kiwisolver/_cext.pyi
+py/kiwisolver/exceptions.py
 py/kiwisolver/py.typed
 py/kiwisolver.egg-info/PKG-INFO
 py/kiwisolver.egg-info/SOURCES.txt

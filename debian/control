@@ -1,8 +1,9 @@
 Source: kiwisolver
 Section: python
+Testsuite: autopkgtest-pkg-python
 Priority: optional
-Maintainer: Sandro Tosi <morph@debian.org>
-Uploaders: Debian Python Team <team+python@tracker.debian.org>,
+Maintainer: Debian Python Team <team+python@tracker.debian.org>,
+Uploaders: Emmanuel Arias <eamanu@debian.org>,
 Build-Depends: debhelper-compat (= 13),
                pybuild-plugin-pyproject,
                python3-all-dev,
@@ -10,8 +11,10 @@ Build-Depends: debhelper-compat (= 13),
                python3-pkg-resources,
                python3-pytest <!nocheck>,
                python3-setuptools,
-Standards-Version: 4.6.2.0
+               python3-setuptools-scm,
+Standards-Version: 4.7.0
 Homepage: https://github.com/nucleic/kiwi
+Rules-Requires-Root: no
 Vcs-Git: https://salsa.debian.org/python-team/packages/kiwisolver.git
 Vcs-Browser: https://salsa.debian.org/python-team/packages/kiwisolver
 
