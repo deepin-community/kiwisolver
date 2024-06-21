@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: kiwisolver
-Version: 1.4.4
+Version: 1.4.5
 Summary: A fast implementation of the Cassowary constraint solver
 Author-email: The Nucleic Development Team <sccolbert@gmail.com>
 Maintainer-email: "Matthieu C. Dartiailh" <m.dartiailh@gmail.com>
@@ -87,6 +87,7 @@ Classifier: Programming Language :: Python :: 3.7
 Classifier: Programming Language :: Python :: 3.8
 Classifier: Programming Language :: Python :: 3.9
 Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
 Classifier: Programming Language :: Python :: Implementation :: CPython
 Classifier: Programming Language :: Python :: Implementation :: PyPy
 Requires-Python: >=3.7
@@ -113,7 +114,7 @@ algorithm. Kiwi is an implementation of the algorithm based on the
 `seminal Cassowary paper <https://constraints.cs.washington.edu/solvers/cassowary-tochi.pdf>`_.
 It is *not* a refactoring of the original C++ solver. Kiwi has been designed
 from the ground up to be lightweight and fast. Kiwi ranges from 10x to 500x
-faster than the original Cassowary solver with typical usecases gaining a 40x
+faster than the original Cassowary solver with typical use cases gaining a 40x
 improvement. Memory savings are consistently > 5x.
 
 In addition to the C++ solver, Kiwi ships with hand-rolled Python bindings for
